@@ -11,4 +11,9 @@ The goal of this project is to perform exploratory data analysis (EDA) and data 
   - numpy
   - seaborn
   - matplotlib
-
+## Project Structure
+- mpg_analysis.ipynb: The Jupyter Notebook containing the analysis code.
+## Future Work
+- Further EDA and visualization
+- Data modeling and prediction
+- Hyperparameter tuning and model evaluation
