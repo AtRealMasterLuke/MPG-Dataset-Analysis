@@ -1,7 +1,11 @@
 # MPG-Dataset-Analysis
 This project involves the analysis of the MPG (Miles Per Gallon) dataset using Python. The dataset is loaded from Seaborn and includes various features related to car specifications, which are used to predict the MPG.
 ## Project Overview
-The goal of this project is to perform exploratory data analysis (EDA), data preprocessing, bivariate analysis, multivariate analysis, initial modeling, and visualization to understand the characteristics of the dataset and prepare it for further analysis and prediction.
+The goal of this project is to:
+- Perform exploratory data analysis (EDA) and data preprocessing
+- Conduct bivariate analysis and multivariate analysis
+- Build an initial Linear Regression model and evaluate it
+- Use advanced techniques such as Cross-Validation and Visualizations to assess the model's performance.
 
 ## Requirements
 - Python 3.x
