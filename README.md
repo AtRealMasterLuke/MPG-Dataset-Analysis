@@ -20,9 +20,26 @@ The goal of this project is to:
   - yellowbrick
 ## Project Structure
 - mpg_analysis.ipynb: The Jupyter Notebook containing the analysis code.
-## Future Work
-- Further EDA and visualization
-- Advanced modeling and prediction
-- Hyperparameter tuning and model evaluation
-## Contributing
+# Key Steps in the Project
+# 1. Exploratory Data Analysis (EDA):
+  - Univariate, bivariate, and multivariate analysis of key variables (e.g., `mpg`, `cylinders`, `horsepower`, `origin`).
+  - Visualizations using Seaborn and Matplotlib for better understanding of variable distributions and relationships.
+# 2. Feature Engineering:
+  - Derived a new feature `age` from `model_year`.
+  - Converted categorical variables `origin` to dummy variables for easier model processing.
+# 3. Linear Regression Model:
+  - Built an initial Linear Regression model.
+  - Evaluated the model using:
+    - R-squared Score
+    - Mean Absolute Error (MAE)
+    - Mean Squared Error (MSE)
+    - Root Mean Squared Error (RMSE)
+  - Results show an R2 score of 0.78 on the test data.
+# 4. Cross-Validation:
+  - Implemented 10-fold cross-validation to evaluate model consistency.
+  - Improved the R2 score to 0.81 with cross-validation.
+  - Analyzed negative MSE for further insights.
+# 5. Visualizations:
+  - Used Yellowbrick to visualize prediction errors and residuals, improving the understanding of model performance and highlighting potential overfitting.
+# Contributing
 Feel free to submit issues or pull requests if you have any improvements or suggestions for the project.
